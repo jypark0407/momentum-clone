@@ -1,0 +1,24 @@
+* {
+  font-family:arial;
+}
+body {
+  background: url("background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+h1, h2 {
+  color: white;
+}
+
+h1 {
+  font-size:80px;
+  text-align:center;
+  margin-top:20%;
+/*   vertical-align: middle; */ */
+}
+
+h2 {
+  font-size:30px;
+   text-align:center;
+}
