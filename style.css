@@ -1,24 +1,41 @@
 * {
   font-family:arial;
 }
+
 body {
   background: url("background.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
-h1, h2 {
+#container {
+  display:flex;
+  flex-direction:column;
+}
+
+h1, h2, h3 {
   color: white;
+  text-align:center;
+  display:flex;
+  justify-content: center;
 }
 
 h1 {
   font-size:80px;
-  text-align:center;
-  margin-top:20%;
 /*   vertical-align: middle; */ */
 }
 
 h2 {
+  font-size:40px;
+}
+
+h3 {
   font-size:30px;
-   text-align:center;
+}
+
+.form {
+    display:flex;
+    justify-content: center;
+    width:50%;
+    border:1px solid black;
 }
