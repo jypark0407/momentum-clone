@@ -22,7 +22,7 @@ h1, h2, h3 {
 
 h1 {
   font-size:80px;
-/*   vertical-align: middle; */ */
+/*   vertical-align: middle; */
 }
 
 h2 {
@@ -33,9 +33,31 @@ h3 {
   font-size:30px;
 }
 
-.form {
+.todo_form {
     display:flex;
     justify-content: center;
-    width:50%;
-    border:1px solid black;
+    width:100%;
 }
+
+#input_form {
+  display:flex;
+  justify-content: center;
+}
+
+.outcome {
+  display:flex;
+  justify-content:center;
+}
+
+.todo_list {
+  color:white;
+}
+
+
+button{
+  font-size:10px;
+/*   padding:0.4em 0.6em; */
+  border:none;
+  border-radius:5px;
+}
+

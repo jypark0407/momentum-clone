@@ -1,3 +1,5 @@
+const keyID = "b3ab48fffb20f496885f11663ff83aff";
+
 // const COORDS = "coords";
 function askForCoords(){
   navigator.geolocation.getCurrentPosition(handleGeoSuccess, handleGeoError)
